@@ -118,6 +118,7 @@ img {
 
 .header-contacts-icon {
     margin-right: 10px;
+    fill: #757575;
 }
 
 .header .container {
@@ -258,7 +259,7 @@ img {
 }
 
 .hero-article {
-    visually-hidden position: absolute;
+
         white-space: nowrap;
         width: 1px;
         height: 1px;
@@ -450,7 +451,7 @@ img {
 }
 
 .clients-item {
-    border: 1px solid;
+    
 }
 
 .clients-link {
@@ -464,10 +465,14 @@ img {
         fill: #AFB1B8;
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients-link:hover {
     fill: var(--main-page-highlight);
     border-color: var(--main-page-highlight);
+}
+
+.clients-link:focus {
+    outline-color: var(--main-page-highlight);
+    fill: var(--main-page-highlight);
 }
 
 /*---------------FOOTER----------------*/
